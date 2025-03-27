@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking External CSS -->
+
+    <style>
+        /* Internal CSS for Table and List */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        ol {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        ol li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS for the heading -->
+    <header style="background-color: #333; color: white; padding: 20px; text-align: center;">
+        <img src="siri.jpg" alt="Profile Image" style="border-radius: 50%; width: 150px; height: 150px;">
+        <h1 style="margin: 10px 0;">Siri Chandana</h1>
+        <h3>Web Developer</h3>
+    </header>
+
+    <nav style="text-align: center; padding: 15px;">
+        <a href="#">Home</a> |
+        <a href="#">About Us</a> |
+        <a href="#">Projects</a> |
+        <a href="Resume.pdf">Resume</a> |
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <section>
+        <h2>About Me</h2>
+        <p class="bio">Welcome to my portfolio! I am a learning web developer studying in NIT Patna.</p>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+        <ol>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>C programming</li>
+            <li>Python</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Recent Projects</h2>
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>A personal portfolio showcasing my work</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>Number guessing game</td>
+                <td>A game using C programming</td>
+                <td>completed</td>
+            </tr>
+            <tr>
+                <td>stone paper scissors game</td>
+                <td>A game using python</td>
+                <td>Planned</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
