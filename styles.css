@@ -1,0 +1,35 @@
+/* External CSS for biography paragraph and contact form */
+.bio {
+    font-size: 18px;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #333;
+}
+
+.contact-form {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
